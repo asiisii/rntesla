@@ -1,14 +1,10 @@
 import React from 'react'
-import { View, Text, FlatList, Dimensions } from 'react-native'
+import { View, FlatList, Dimensions } from 'react-native'
 import { TeslaItem } from '../TeslaItem/TeslaItem'
-
-// import { cars } from './carsData'
 import cars from './carsData'
-
 import styles from './styles'
 
 const CarsList = () => {
-	// const data = [...cars, ...solars]
 	return (
 		<View style={styles.container}>
 			<FlatList

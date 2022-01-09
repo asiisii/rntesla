@@ -5,7 +5,7 @@ import styles from './styles'
 
 export const TeslaItem = props => {
 	const { name, tagline, taglineCTA, image, type } = props.teslaItems
-	console.log(props)
+
 	return (
 		<View style={styles.carContainer}>
 			<ImageBackground source={image} style={styles.image} />
